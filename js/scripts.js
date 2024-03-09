@@ -1,5 +1,5 @@
 const startBtn = document.querySelector('.start-button')
-const startBtn2 = document.querySelector('.start-button2')
+
 const dayErr = document.querySelector('.day-error')
 const monthErr = document.querySelector('.month-error')
 const yearErr = document.querySelector('.year-error')
@@ -110,4 +110,4 @@ const conutDte = () => {
 }
 
 startBtn.addEventListener('click', goApp)
-startBtn2.addEventListener('click', goApp)
+

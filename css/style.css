@@ -139,15 +139,16 @@ svg:hover {
 }
 
 @media (max-width: 375px) {
+
+	.calc-app {
+		width: 339px;
+		height: 80vh;
+		border-radius: 50px 50px 150px 50px;
+	}
 	svg {
 		width: 50px;
 		height: 50px;
 
-	}
-	.calc-app {
-		width: 339px;
-		height: 60vh;
-		border-radius: 50px 50px 150px 50px;
 	}
 	.day,
 	.month,

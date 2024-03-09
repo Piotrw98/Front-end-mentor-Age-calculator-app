@@ -75,9 +75,7 @@ const createDateVar = () => {
 	const dVar = day.value
 	const mVar = month.value
 	const yVar = year.value
-	console.log(dVar)
-	console.log(mVar)
-	console.log(yVar)
+
 
 	if (dVar === '' || mVar === '' || yVar === '') {
 		console.log('zero')

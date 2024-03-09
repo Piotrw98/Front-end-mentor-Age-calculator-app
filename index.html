@@ -30,25 +30,27 @@
 			</div>
 			<div class="month">
 				<label for="month">Month:</label>
-				<input class="input-month" id="month" type="number" placeholder="MM" min="1" max="12" value="">
+				<input class="input-month" id="month" type="number" pattern="\d*" placeholder="MM" min="1" max="12"
+					value="">
 				<p class="month-error"></p>
 			</div>
 			<div class="year">
 				<label for="year">Year:</label>
-				<input class="input-year" id="year" type="number" placeholder="YYYY" value="">
+				<input class="input-year" id="year" type="number" pattern="\d*" placeholder="YYYY" value="">
 				<p class="year-error"></p>
 			</div>
 
 		</div>
 		<div class="offset">
 			<div class="line"></div>
-			<a href="#"><svg class="start-button" xmlns="http://www.w3.org/2000/svg" width="100" height="100"
+			<!-- <a href="#"><svg class="start-button" xmlns="http://www.w3.org/2000/svg" width="100" height="100"
 					viewBox="-26 -25 100 100">
 					<g fill="none" stroke="#FFF" stroke-width="2">
 						<path
 							d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
 					</g>
-				</svg></a>
+				</svg></a> -->
+				<button class="start-button"></button>
 		</div>
 
 		<div class="resault-area">

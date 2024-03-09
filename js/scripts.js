@@ -1,4 +1,5 @@
 const startBtn = document.querySelector('.start-button')
+const startBtn2 = document.querySelector('.start-button2')
 const dayErr = document.querySelector('.day-error')
 const monthErr = document.querySelector('.month-error')
 const yearErr = document.querySelector('.year-error')
@@ -76,7 +77,6 @@ const createDateVar = () => {
 	const mVar = month.value
 	const yVar = year.value
 
-
 	if (dVar === '' || mVar === '' || yVar === '') {
 		console.log('zero')
 	} else {
@@ -107,9 +107,7 @@ const conutDte = () => {
 		spanMonth.textContent = monthResault
 		spanDay.textContent = daysResault
 	}
-	// spanYear.textContent = yearResault
-	// spanMonth.textContent = monthResault
-	// spanDay.textContent = daysResault
 }
 
 startBtn.addEventListener('click', goApp)
+startBtn2.addEventListener('click', goApp)
